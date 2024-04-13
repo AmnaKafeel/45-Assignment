@@ -1,4 +1,5 @@
-let transportation: string[]=['Car','Aircraft','Train','Bike','Ship'];
-for(let i=0; i<transportation.length; i++){
-    console.log('i would like to Own a ' + transportation[i]);
+let guest_List: string[]=['Marium','Mansoor','Nabeel','Zainab','Noreen'];
+for (let i=0; i<guest_List.length; i++ ){
+    console.log('Respected Sir/Madam' + guest_List[i] + ',\nWe Invited you tomorrow at Dinner.\n\nThankyou')
 }
+export{guest_List}
