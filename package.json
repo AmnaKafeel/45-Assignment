@@ -1,5 +1,5 @@
 {
-  "name": "44_sandwiches",
+  "name": "45_cars",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.4"
+    "@types/node": "^20.12.5"
   }
 }
