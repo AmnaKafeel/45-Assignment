@@ -1,4 +1,4 @@
-let quote: string= "It is never too late to be what you might have been.";
-let famous_person= "George Eliot";
-let message= `${famous_person} Once Said ${quote}`;
-console.log(message)
+let personName: string=`\n\t AMNA KAFEEL\t\n`;
+console.log(personName);
+let Stripped: String =personName.trim();
+console.log(Stripped);
