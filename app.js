@@ -1,4 +1,4 @@
-var personName = "\n\t AMNA KAFEEL\t\n";
-console.log(personName);
-var Stripped = personName.trim();
-console.log(Stripped);
+console.log(4 + 4);
+console.log(12 - 4);
+console.log(2 * 4);
+console.log(16 / 2);
