@@ -1,5 +1,4 @@
-var members = ['Amna', 'Fatima', 'Noreen', 'Muniba'];
-var massage = 'Dont Giveup.. Just Run Forward:';
-for (var i = 0; i < members.length; i++) {
-    console.log(massage + members[i]);
+var transportation = ['Car', 'Aircraft', 'Train', 'Bike', 'Ship'];
+for (var i = 0; i < transportation.length; i++) {
+    console.log('i would like to Own a ' + transportation[i]);
 }
