@@ -1,11 +1,20 @@
-var guest_list = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreen'];
-var Not_Coming = ('Zainab');
-var New_Guest = ('Zameel');
-guest_list[3] = New_Guest;
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Mr/Mis' + guest_list[i] + ',\nWe Invited you For Dinner Tomorrow.\nThankYou.');
-}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let guest_list = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreem',];
+let Not_Coming = "Zainab";
+let New_guest = "Zameel";
+guest_list[3] = New_guest;
+console.log(',\nUnfortunaintly we cannot arrange a big Table for Dinner, thats Why Only two Persons Allowed');
 guest_list.unshift('Muniba', 'Kafeel', 'Jaleel');
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Mr/Mis' + guest_list[i] + ',\nWe Invited you For Dinner Tomorrow.We Found a Bigger Dinner Table, So Please Come with your Family.\nThankYou.');
+console.log("Updated List of guest:", guest_list);
+while (guest_list.length > 2) {
+    let removedguest = guest_list.pop();
+    if (removedguest !== undefined) {
+        console.log(`sorry, ${removedguest}, We Cant invite you for today dinner`);
+    }
 }
+guest_list.forEach(guest => {
+    console.log(`Dear Guest ${guest} You Both are still invited in Dinner`);
+});
+guest_list.splice(0, guest_list.length);
+console.log("Updated list of guest:", guest_list);
