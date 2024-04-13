@@ -1,11 +1,11 @@
 var guest_list = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreen'];
-for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Sir/Madam' + guest_list[i] + ',\nWe Invited you for Dinner tomorrow.\nThankyou\n');
-}
-var Not_Coming = 'Zainab';
-var New_Guest = "Zameel";
+var Not_Coming = ('Zainab');
+var New_Guest = ('Zameel');
 guest_list[3] = New_Guest;
 for (var i = 0; i < guest_list.length; i++) {
-    console.log('Respected Sir/Madam' + guest_list[i] + ',\nWe Invited you for Dinner tomorrow.\nThankyou\n');
+    console.log('Respected Mr/Mis' + guest_list[i] + ',\nWe Invited you For Dinner Tomorrow.\nThankYou.');
 }
-console.log("Mis ".concat(Not_Coming, " Will Not Coming for Tomorrow Dinner."));
+guest_list.unshift('Muniba', 'Kafeel', 'Jaleel');
+for (var i = 0; i < guest_list.length; i++) {
+    console.log('Respected Mr/Mis' + guest_list[i] + ',\nWe Invited you For Dinner Tomorrow.We Found a Bigger Dinner Table, So Please Come with your Family.\nThankYou.');
+}
