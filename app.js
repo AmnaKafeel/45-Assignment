@@ -1,3 +1,2 @@
-"use strict";
-let massage = "Hello World";
-console.log(massage);
+var personName = ('Eric');
+console.log("Hello ".concat(personName, ", Would you like to learn some python today?"));

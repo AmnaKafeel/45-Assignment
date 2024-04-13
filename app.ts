@@ -1,2 +1,2 @@
-let massage= "Hello World"
-console.log(massage)
+let personName: String= ('Eric')
+console.log(`Hello ${personName}, Would you like to learn some python today?`)
