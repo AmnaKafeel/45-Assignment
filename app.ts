@@ -1,5 +1,5 @@
-//exercise 10
-// My Name is Amna Kafeel
-// Dated : 22/02/24
-// This Program will run simple code just like Thankyou Governer Sindh Kamran Khan Tessori
-console.log('Thankyou Governer Sindh Kamran Khan Tessori');
+let members: string[]=['Amna','Fatima','Noreen','Muniba'];
+let massage: string='Dont Giveup.. Just Run Forward:';
+for (let i=0; i<members.length; i++ ){
+    console.log(massage + members[i])
+}
