@@ -1,3 +1,4 @@
 var quote = "It is never too late to be what you might have been.";
-var author = " George Eliot";
-console.log("".concat(author, " Once Said \"").concat(quote));
+var famous_person = "George Eliot";
+var message = "".concat(famous_person, " Once Said ").concat(quote);
+console.log(message);
