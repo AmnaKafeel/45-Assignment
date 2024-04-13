@@ -1,9 +1,9 @@
-let places: string[]=['Canada','Hongkong', 'Australia','Dhaka', 'Gaza','Bangladesh']
-//console.log('Original :' + places);
-//console.log('copy ' + [...places].sort());
-console.log('Original: ' + places);
-console.log('copy ' + [...places].sort().reverse());
-console.log('copy ' + [...places].sort().reverse());
-console.log('Original ' + places.sort());
-console.log('original ' + places.sort().reverse());
-console.log('Copy ' + [...places].sort());
+let items:string[] = ['Turkey','Istanbul', 'Turkish'];
+
+let item2: string[]= [];
+
+item2.push('Pakistan');
+item2.push('England');
+item2.push('India');
+
+console.log(item2);
