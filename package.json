@@ -1,5 +1,5 @@
 {
-  "name": "31_no_users",
+  "name": "32_checking_username",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.2"
+    "@types/node": "^20.12.3"
   }
 }
