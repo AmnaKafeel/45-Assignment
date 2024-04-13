@@ -1,8 +1,8 @@
 {
-  "name": "9.-favorite-number",
+  "name": "10.-adding-comment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.19"
+    "@types/node": "^20.11.20"
   }
 }
