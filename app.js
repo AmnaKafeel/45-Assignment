@@ -1,20 +1,18 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-let guest_list = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreem',];
-let Not_Coming = "Zainab";
-let New_guest = "Zameel";
-guest_list[3] = New_guest;
-console.log(',\nUnfortunaintly we cannot arrange a big Table for Dinner, thats Why Only two Persons Allowed');
-guest_list.unshift('Muniba', 'Kafeel', 'Jaleel');
-console.log("Updated List of guest:", guest_list);
-while (guest_list.length > 2) {
-    let removedguest = guest_list.pop();
-    if (removedguest !== undefined) {
-        console.log(`sorry, ${removedguest}, We Cant invite you for today dinner`);
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
     }
-}
-guest_list.forEach(guest => {
-    console.log(`Dear Guest ${guest} You Both are still invited in Dinner`);
-});
-guest_list.splice(0, guest_list.length);
-console.log("Updated list of guest:", guest_list);
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+var places = ['Canada', 'Hongkong', 'Australia', 'Dhaka', 'Gaza', 'Bangladesh'];
+//console.log('Original :' + places);
+//console.log('copy ' + [...places].sort());
+console.log('Original: ' + places);
+console.log('copy ' + __spreadArray([], places, true).sort().reverse());
+console.log('copy ' + __spreadArray([], places, true).sort().reverse());
+console.log('Original ' + places.sort());
+console.log('original ' + places.sort().reverse());
+console.log('Copy ' + __spreadArray([], places, true).sort());
