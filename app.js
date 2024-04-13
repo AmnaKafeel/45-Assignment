@@ -1,7 +1,3 @@
-// Lower Case
-var personName = ('Amna');
-console.log("lowercase:", personName.toLowerCase());
-//Upper Case
-console.log("Uppercase:", personName.toUpperCase());
-//Title case
-console.log("Titlecase:", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
+var quote = "It is never too late to be what you might have been.";
+var author = " George Eliot";
+console.log("".concat(author, " Once Said \"").concat(quote));

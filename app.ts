@@ -1,12 +1,3 @@
-// Lower Case
-
-let personName: string= ('Amna');
-console.log("lowercase:", personName.toLowerCase());
-
-//Upper Case
-
-console.log("Uppercase:", personName.toUpperCase());
-
-//Title case
-
-console.log("Titlecase:", personName.replace(/\bw/g,c => c.toUpperCase()));
+let quote: string= "It is never too late to be what you might have been.";
+let author: string= " George Eliot"
+console.log(`${author} Once Said "${quote}`);
