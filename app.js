@@ -1,8 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.guest_List = void 0;
-var guest_List = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreen'];
-exports.guest_List = guest_List;
-for (var i = 0; i < guest_List.length; i++) {
-    console.log('Respected Sir/Madam' + guest_List[i] + ',\nWe Invited you tomorrow at Dinner.\n\nThankyou');
+var guest_list = ['Marium', 'Mansoor', 'Nabeel', 'Zainab', 'Noreen'];
+for (var i = 0; i < guest_list.length; i++) {
+    console.log('Respected Sir/Madam' + guest_list[i] + ',\nWe Invited you for Dinner tomorrow.\nThankyou\n');
 }
+var Not_Coming = 'Zainab';
+var New_Guest = "Zameel";
+guest_list[3] = New_Guest;
+for (var i = 0; i < guest_list.length; i++) {
+    console.log('Respected Sir/Madam' + guest_list[i] + ',\nWe Invited you for Dinner tomorrow.\nThankyou\n');
+}
+console.log("Mis ".concat(Not_Coming, " Will Not Coming for Tomorrow Dinner."));
